@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#biography{
+    display: grid;
+    grid-template-columns: repeat(3,33%);
+    margin-top: 10vw;
+    text-align: center;
+}
+
+.biographyBox1 .img1{
+    content: url(./asset/eye-for-ebony-KgsXAHYWcU8-unsplash.jpg);
+    margin: 0 auto;
+    width: 18vw;
+    border-radius: 1000vh;
+}
+.biographyBox1 h1{
+    color: rgba(59, 59, 59, 0.883);
+}
+
+.biographyBox1 button{
+    border-style: none;
+    padding: 6px;
+    color: white;
+    border-radius: 100vh;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+.biographyBox2 .img2{
+    content: url(./asset/photo-1529245219944-bad177f5f3be.jpg);
+    margin: 0 auto;
+    width: 20vw;
+    border-radius: 1000vh;
+}
+.biographyBox2 h1{
+    color: rgba(59, 59, 59, 0.883);
+}
+
+.biographyBox2 button{
+    border-style: none;
+    padding: 6px;
+    color: white;
+    border-radius: 100vh;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.biographyBox3 .img3{
+    content: url(./asset/photo-1549920867-1629df28cdf9.jpg);
+    margin: 0 auto;
+    width: 12vw;
+    border-radius: 1000vh;
+}
+.biographyBox3 h1{
+    color: rgba(59, 59, 59, 0.883);
+}
+
+.biographyBox3 button{
+    border-style: none;
+    padding: 6px;
+    color:black;
+    border-radius: 100vh;
+    font-size: 1.5em;
+    cursor: pointer;
+    
+}
